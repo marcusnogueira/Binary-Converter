@@ -29,3 +29,15 @@ console.log(convertBase.bin2dec('111')); // '7'
 console.log(convertBase.dec2hex('42')); // '2a'
 console.log(convertBase.hex2bin('f8')); // '11111000'
 console.log(convertBase.dec2bin('22')); // '10110'
+
+function disCoverter(inputId, outputId) {
+	var input = document.getElementById(inputId).value;
+	var outputText = "";
+	if (validPhone(input) == true) {
+		outputText = "The number " + input + " is a actual phone number.";
+	}
+	else {
+		outputText = "The number " + input + " is not a phone number.";
+	}
+	document.getElementById(outputId).innerHTML = outputText;
+}
