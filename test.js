@@ -1,9 +1,8 @@
-function convert(num, base) {
-return parseInt(num,10).toString(2);
+function convert(num) {
+return parseInt(num).toString(2);
 }
-function convert(n, base) {
 
-switch (base)
+/*switch (base)
 {
 case 'bin':
 return parseInt(n, 10).toString(2);
@@ -18,3 +17,4 @@ default:
 return("You messed up not us");
 }
 }
+*/
