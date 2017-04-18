@@ -1,5 +1,13 @@
-function convert(num) {
+function binConvert(num) {
 return parseInt(num).toString(2);
+}
+
+function decConvert(num) {
+return parseInt(num).toString(10);
+}
+
+function hexConvert(num) {
+return parseInt(num).toString(16);
 }
 
 /*switch (base)
