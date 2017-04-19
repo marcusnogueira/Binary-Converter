@@ -3,14 +3,19 @@
 
 <head>
 	<script language="javascript" type="text/javascript" src="test.js"></script>
+    <link rel="stylesheet" href="conveter.css">
 	</head>
-
+<h1> Matts Glasses Inc. Converter</h1>
 <body>
 	<input type="text" id="num">
 	<p/>
-	<input id="button" type="button" onclick="document.write(convert())" value="Convert">
+
+	<input id="convert" type="button" onclick="document.write(binConvert())" value="Binary">
+	<input id="convert" type="button" onclick="document.write(decConvert())" value="Decimal">
+	<input id="convert" type="button" onclick="document.write(hexConvert())" value="HexaDecimal">
 	<p/>
 	<div id="num"></div>
+
 </body>
 
 </html>
